@@ -1,7 +1,4 @@
 import os
-from config.config import TITLE
-from utils.key import generate_key, load_key
-from utils.cryptography import encrypt_data, decrypt_data
 from utils.console import display_logo, clear
 from utils.options import OptionsMenu
 
@@ -11,7 +8,7 @@ def main():
         clear()
         display_logo()
         menu = OptionsMenu()
-        menu.run()
+        menu._display_main_menu()
     except KeyboardInterrupt:
         print("\nExiting program.")    
     except Exception as e:
