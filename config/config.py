@@ -1,2 +1,3 @@
 TITLE = "AESGuard"
-KEYSTORAGE_PATH = "/keys/secret.key"
+LOGO_FONT = "colossal"
+LOGO_COLOR = "\033[94m"

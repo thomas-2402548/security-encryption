@@ -1,8 +1,4 @@
+from cryptography.fernet import Fernet
+
 def generate_key():
-    pass
-
-def store_key(key):
-    pass
-
-def load_key():
-    pass
+    return Fernet.generate_key().decode()
